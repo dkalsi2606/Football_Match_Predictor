@@ -6,7 +6,7 @@ A machine learning pipeline that predicts English Premier League match outcomes 
 
 ## Overview
 
-The pipeline builds a custom ELO rating system per team and combines it with rolling performance features (goals, xG, shots, possession) to train four ML classifiers. The best model — Random Forest — achieves **~68% accuracy** on the held-out 2023/24 season, compared to a naive baseline of **~39%** (always guessing the most common outcome).
+The pipeline builds a custom ELO rating system per team and combines it with rolling performance features (goals, xG, shots, possession) to train four ML classifiers. The best model — Random Forest — achieves **~65% accuracy** on the held-out 2023/24 season, compared to a naive baseline of **~39%** (always guessing the most common outcome).
 
 ---
 
